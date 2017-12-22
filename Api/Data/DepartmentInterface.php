@@ -308,7 +308,7 @@ interface DepartmentInterface
     public function setCustomLayoutUpdateXml($customLayoutUpdateXml);
 
     /**
-     * Retrieve Location Position
+     * Retrieve Department Position
      *
      * @api
      * @return int|null
@@ -316,11 +316,11 @@ interface DepartmentInterface
     public function getPosition();
 
     /**
-     * Set Location Position
+     * Set Department Position
      *
      * @api
      * @param int $position
-     * @return \Faonni\StoreLocator\Api\Data\LocationInterface
+     * @return \Faonni\Content\Api\Data\DepartmentInterface
      */
     public function setPosition($position);
 	
