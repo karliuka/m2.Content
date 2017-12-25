@@ -327,6 +327,7 @@ interface DepartmentInterface
     /**
      * Is Active
      *
+     * @api     
      * @return bool
      */
     public function isActive();
@@ -334,6 +335,7 @@ interface DepartmentInterface
     /**
      * Set Is Active
      *
+     * @api     
      * @param int|bool $isActive
      * @return \Faonni\Content\Api\Data\DepartmentInterface
      */
