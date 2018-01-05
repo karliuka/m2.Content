@@ -22,8 +22,6 @@ class Sitemap
     {
         $storeId = $subject->getStoreId();
         
-        
-        
         return $result;
     }
 }
